@@ -1,0 +1,14 @@
+{
+  "name": "semgrep-lab",
+  "version": "1.0.0",
+  "description": "SSE Lab 6 — Intentionally vulnerable codebase for SAST, Code Review, and SCA exercises",
+  "main": "api.js",
+  "scripts": {
+    "start": "node api.js"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "jsonwebtoken": "8.5.1",
+    "better-sqlite3": "11.6.0"
+  }
+}
